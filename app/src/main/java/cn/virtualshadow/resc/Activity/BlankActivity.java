@@ -40,9 +40,7 @@ public class BlankActivity extends Activity
 		wallpaper_x=sourceWallpaper.getBitmap().getWidth();
 		wallpaper_y=sourceWallpaper.getBitmap().getHeight();
 		getWindow().setBackgroundDrawable(background);
-		requestWindowFeature(Window.FEATURE_NO_TITLE);
-		getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
-							 WindowManager.LayoutParams.FLAG_FULLSCREEN);
+		
 	}
 
 	@Override
